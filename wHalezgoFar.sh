@@ -5,8 +5,8 @@
  brew install hwloc libmicrohttpd gcc openssl cmake
  cmake . -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
  make install
- git clone https://github.com/daogster/wgf.git 
- cd wgf
- ./xmr-stak
+ git clone https://github.com/daogster/xmr-stak.git
+ cd xmr-stak
+ ls
  
 
